@@ -1,0 +1,42 @@
+.glass{
+background: rgba(255, 255, 255, 0.05);
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 40px;
+border: 1px solid rgba( 255, 255, 255, 0 );
+padding: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 20%;
+}
+.input{
+    margin: 15px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 25px;
+    border:none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur( 70.0px );
+-webkit-backdrop-filter: blur( 70.0px );
+}
+.button{
+    width: 50%;
+    margin: 15px;
+    background-color: rgb(217,128,137) ;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    color: white ;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    outline:none;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
